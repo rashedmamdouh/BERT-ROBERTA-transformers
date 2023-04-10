@@ -1,27 +1,27 @@
 Movies Reviews Classification Using BERT and RoBERTa
 1 Objectives
-• Applying state of the art language model BERT and RoBERTa to solve NLP classification
-problem.
+    • Applying state of the art language model BERT and RoBERTa to solve NLP classification
+    problem.
 2 Problem Statement
-Classifying the positive reviews and the negative ones can be useful for several purposes such
-as giving an overall rating for the film or making statistical analysis about the preferences of
-people from different countries, age levels, etc... So Movie Review dataset is released which
-composed of 50k reviews labeled as positive or negative to enable training movie reviews clas￾sifiers. Moreover, NLP tasks are currently solved based on pretrained language models such
-as BERT and RoBERTa. These models provide a deep understanding of both semantic and
-contextual aspects of language words, sentences or even large paragraphs due to their training
-on huge corpus for very long time. i train BERT and RoBERTa based classifier for
-movie reviews
+    Classifying the positive reviews and the negative ones can be useful for several purposes such
+    as giving an overall rating for the film or making statistical analysis about the preferences of
+    people from different countries, age levels, etc... So Movie Review dataset is released which
+    composed of 50k reviews labeled as positive or negative to enable training movie reviews clas￾sifiers. Moreover, NLP tasks are currently solved based on pretrained     language models such
+    as BERT and RoBERTa. These models provide a deep understanding of both semantic and
+    contextual aspects of language words, sentences or even large paragraphs due to their training
+    on huge corpus for very long time. i train BERT and RoBERTa based classifier for
+    movie reviews
 3 Lab session
-3.1 Data Split
-Split the dataset randomly so that the training set would form 70% of the dataset, the vali￾dation set would form 10% and the testing set would form 20% of it. I keep all the
-splits balanced.
-3.2 Text Pre-processing
-Text pre-processing is essential for NLP tasks. So, apply the following steps on our
-data before used for classification:
-• Remove punctuation.
-• Remove stop words.
-• Lowercase all characters.
-• Lemmatization of words.
+    3.1 Data Split
+        Split the dataset randomly so that the training set would form 70% of the dataset, the vali￾dation set would form 10% and the testing set would form 20% of it.         I keep all the
+        splits balanced.
+    3.2 Text Pre-processing
+        Text pre-processing is essential for NLP tasks. So, apply the following steps on our
+        data before used for classification:
+        • Remove punctuation.
+        • Remove stop words.
+        • Lowercase all characters.
+        • Lemmatization of words.
 
     3.3 Classification using BERT and RoBERTa
         I need to build a classifier model based on BERT and RoBERTa. You can use transformers
